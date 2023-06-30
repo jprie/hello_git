@@ -7,7 +7,6 @@ using namespace std;
 		
 		cout << "Hello Animal World" << endl;
 		string name = "AnimalName";
-		cout << name << endl;
 		Animal animal(name);
 		cout << "Animal: " << animal.printName() << endl; 
 
