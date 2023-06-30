@@ -1,4 +1,11 @@
+#include <string>
 
 class Animal {
-	Animal::Animal(std::String name);
+
+	std::string name;
+
+	public:
+		Animal(std::string name);
+		std::string printName();
+
 };

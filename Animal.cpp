@@ -1,12 +1,12 @@
 #include "Animal.h"
 
-class Animal {
+Animal::Animal(std::string name) {
 
-	std::String name;
+	this->name = name;
+}
 
-	Animal::Animal(std::String name) {
-		this.name = name;
-	}
+std::string Animal::printName() {
 
+	return this->name;
 
-};
+}

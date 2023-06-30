@@ -6,7 +6,10 @@ using namespace std;
 	int main(int argc, char *args[]) {
 		
 		cout << "Hello World" << endl;
-		Animal animal = new Animal("Jokl");
+		string name = "AnimalName";
+		cout << name << endl;
+		Animal animal(name);
+		cout << "Animal: " << animal.printName() << endl; 
 
 		return 0;
 	}
